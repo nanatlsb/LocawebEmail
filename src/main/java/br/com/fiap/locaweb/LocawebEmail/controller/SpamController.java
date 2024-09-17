@@ -1,13 +1,12 @@
 package br.com.fiap.locaweb.LocawebEmail.controller;
 
-
-import com.example.spamcheck.service.SpamService;
+import br.com.fiap.locaweb.LocawebEmail.services.SpamService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/spam")
+@RequestMapping("/spam")
 public class SpamController {
 
     private final SpamService spamService;

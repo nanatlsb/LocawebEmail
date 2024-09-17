@@ -3,6 +3,7 @@ package br.com.fiap.locaweb.LocawebEmail.services;
 
 import org.springframework.stereotype.Service;
 
+
 @Service
 public class SpamService {
 
@@ -12,3 +13,4 @@ public class SpamService {
         return corpoEmail != null && corpoEmail.contains(PALAVRA_CHAVE);
     }
 }
+
